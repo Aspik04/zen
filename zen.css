@@ -88,70 +88,25 @@ p {
 .first__mobile {
     display: none;
 }
-@media (max-width: 1024px) {
-    .wrapper {
-        width: 768px;
-    }
-    .header {
-        height: 128px;
-    }
-    .first__nav {
-        margin-top: 17px;
-        width: 100%;
-    }
-    .first__nav ul li {
-        margin-right: 150px;
-    }
-}
-@media (max-width: 320px) {
-    .wrapper {
-        width: 290px;
-    }
-    .header {
-        height: 357px;
-    }
-    .first__logotype,
-    .first__nav,
-    .first__login {
-        width: 100%;
-        float: none;
-        text-align: center;
-    }
-    .first__login .link,
-    .first__nav {
-        display: none;
-    }
-    .first__mobile {
-        display: block;
-        margin-top: 24px;
-    }
-    .first__mobile ul {
-        list-style: none;
-    }
-    .first__login .button {
-        margin-top: 40px;
-    }
-    .first__mobile ul li {
-        margin-bottom: 10px;
-    }
-    .first__mobile ul li:last-of-type {
-        margin-bottom: 0;
-    }
-}
+
+
 /* Заголовки */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Nunito', serif;
 }
 h1 {
-    font-size: 64px;
-    line-height: 110%;
+    font-size: 42px;
+    line-height: 50px;
 }
 h2 {
-    font-size: 48px;
-    line-height: 115%;
+    font-size: 36px;
+    line-height: 43px;
 }
 h3 {
     font-size: 32px;
+}
+p{
+    line-height: 26px;
 }
 
 /* Первый блок */
@@ -171,12 +126,11 @@ h3 {
 
 .history__right img {
     position: absolute;
-    width: 586px;
-    height: 546px;
+    width: 585px;
+    height: 657px;
     left: 50.78%;
     right: 12.75%;
     top: 173px;
-    border-radius: 17px;
     overflow: hidden;
 }
 
@@ -255,5 +209,298 @@ h3 {
     right: 20px;
     top: 23px;
     bottom: 5px;
+}
+
+.m1{
+    position: relative;
+  
+    bottom: 28px;
+   left: 16px;
+    right:10px;
+}
+.m2{
+    position: relative;
+    bottom: 38px;
+   left: 1px;
+    right:3px;
+}
+.m3{
+    position: relative;
+  
+    bottom: 76px;
+   left: 1px;
+    right:6px;
+}
+/*Второй блок*/
+.block {
+    margin: 150px 0;
+    padding: 80px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.block__right{
     
+    width: 50%;
+    float: right;
+    font-size:18px;
+    width: 400px;
+    position: relative;
+    top:80px;
+    bottom:40px;
+}
+.block__right img {
+    position: absolute;
+    width: 585px;
+    height: 657px;
+    left: 50.78%;
+    right: 12.75%;
+    top: 173px;
+    overflow: hidden;
+}
+.block__right h2{
+    font-size: 36px;
+}
+/*Третий блок*/
+.real {
+    margin: 150px 0;
+    padding: 80px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.real__left{
+    
+    font-size:18px;
+    width: 451px;
+    height: 422px;
+}
+.real__right img {
+    position: absolute;
+    width: 585px;
+    height: 657px;
+    left: 975px;
+    right: 40px;
+    top: 1706px;
+    bottom: 70px;
+    float: right;
+    overflow: hidden;
+}
+.real__right{
+    margin: auto;
+}
+.real__left h2{
+    font-size: 36px;
+}
+.text{
+    margin: 150px 0;
+    padding: 80px 0;
+    text-align: center;
+}
+.pa{
+    width:584px;
+    Height:156px;
+    text-align: center;
+    padding: 24px;
+    margin: auto;
+}
+.frame{
+    margin: auto;
+    padding-top: 24px;
+}
+.ge{
+   padding-left: 330px;
+   position: relative;
+   bottom: 35px;
+}
+/*Фирмы*/
+.firm{
+    margin: 50px 440px;
+    padding: 50px 40px;
+    overflow: hidden;
+    color: #222222;
+}
+.wrapper1{
+    width: 1087px;
+    margin: auto;
+    float: none;
+}
+.booking{
+    width: 15%;
+    float:left;
+    margin-right: 85px;
+}
+.line{
+    width: 15%;
+    float:left;
+    margin-right: 85px;
+    padding-top: 70px;
+}
+/*Четвертый блок*/
+.hala {
+    margin: 150px 0;
+    padding: 80px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.hala__left{
+    width: 50%;
+    font-size:18px;
+    width: 451px;
+    height: 422px;
+}
+.hala__right img {
+   padding-left: 750px;
+   
+   position: absolute; 
+   top: 3450px;
+    float:left;
+    overflow: hidden;
+}
+
+.pay{
+    margin-top: 25px;
+}
+/*Пятый блок*/
+.madrid {
+    margin: 150px 0;
+    padding: 90px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.madrid__right{
+    float: right;
+    font-size:18px;
+    width: 475px;
+    height: 208px;
+    position: relative;
+    top:80px;
+    bottom:40px;
+}
+.madrid__right img {
+    position: absolute;
+    width: 585px;
+    height: 657px;
+    left: 50.78%;
+    right: 12.75%;
+    top: 173px;
+    overflow: hidden;
+}
+/*Шестой блок*/
+.king {
+    margin: 150px 0;
+    padding: 80px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.king__left{
+   
+    font-size:18px;
+    width: 475px;
+    height: 240px;
+}
+.king__right img {
+   padding-left: 750px;
+   
+   position: absolute; 
+   top: 4745px;
+    float:left;
+    overflow: hidden;
+}
+/*Седьмой блок*/
+.cr7 {
+    margin: 150px 0;
+    padding: 90px 0;
+    overflow: hidden;
+    color: #222222;
+}
+.cr7__right{
+    float: right;
+    font-size:18px;
+    width: 400px;
+   
+    position: relative;
+    top:80px;
+    bottom:40px;
+}
+.cr7__right img {
+    position: absolute;
+    width: 585px;
+    height: 458px;
+    left: 50.78%;
+    right: 12.75%;
+    overflow: hidden;
+}
+.gro img{
+width: 361px;
+height: 51px;
+position:absolute ;
+top:330px;
+right: 500px;
+left: 5px;
+}
+.footer{
+        overflow: hidden;
+        margin-top: 40px;
+        border-top: 1px solid #CBD6E2;
+        margin-bottom: 90px;
+        padding: 90px;
+        width: 1920px;
+        height: 502px;
+}
+.wrapper2{
+    width: 1920px;
+    height: 502px;
+}
+.learn{
+    Width:90px;
+    Height:209px;
+    position: absolute;
+    left: 18.75%;
+    right: 76.56%;
+}
+.discover{
+    position: absolute;
+    width: 94px;
+    height: 141px;
+    left: 30.26%;
+    right: 64.84%;
+}
+.ofter{
+    position: absolute;
+    width: 57px;
+    height: 107px;
+    left: 42.03%;
+    right: 55%;
+}
+.language{
+    position: absolute;
+    width: 71px;
+    height: 107px;
+    left: 51.82%;
+    right: 44.48%;
+}
+.follow{
+    position: absolute;
+    width: 70px;
+    height: 69px;
+    left: 62.45%;
+    right: 33.91%;
+
+}
+.contact{
+    position: absolute;
+    width: 96px;
+    height: 73px;
+    left: 72.97%;
+    right: 22.03%;
+}
+a{
+    font-family: 'Nunito', serif;
+    font-size: 14px;
+}
+.end{
+    position: absolute;
+    width: 1200px;
+    height: 113px;
+    left: 320px;
+    top: 6350px;
 }
